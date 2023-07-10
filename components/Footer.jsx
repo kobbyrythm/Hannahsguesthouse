@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-      <footer className= 'flex justify-between px-40 py-30 bg-[#FFEBCD] bottom-0'>
+      <footer className='flex flex-wrap justify-between px-6 py-4 bg-[#000000] fixed left-0 bottom-0 w-full ' style={{ color: "#FFFFFF" }}>
         <div><h3>Get In Touch</h3>
               <div>
                
@@ -36,6 +36,11 @@ const Footer = () => {
 
         <div>
             <h3>Our Social Media</h3>
+            <div>
+                  {/* <BsFacebook />
+                  <FaTiktok />
+                  <BsInstagram /> */}
+            </div>
 
               
         </div>
