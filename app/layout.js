@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
 				<Navbar />
 				{children}
 				<Roomcard />
-        <Footer />
+        {/* <Footer /> */}
         {/* <Values /> */}
 			</body>
 		</html>
