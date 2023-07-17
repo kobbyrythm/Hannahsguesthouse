@@ -1,8 +1,8 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import Values from '@/components/Values';
-import Roomcard from '@/components/Roomcard';
-import Review from '@/components/Review';
+
+
+
 import './globals.css';
 
 export const metadata = {
@@ -15,11 +15,9 @@ export default function RootLayout({ children }) {
 		<html lang='en'>
 			<body>
 				<Navbar />
+				{/* <Footer />  */}
 				{children}
-				<Review />
-				{/* <Roomcard /> */}
-        {/* <Footer /> */}
-        {/* <Values /> */}
+       
 			</body>
 		</html>
 	);

@@ -3,7 +3,7 @@ import React from 'react'
 const Values = () => {
     return (
 
-        <div className = 'flex h-[100vh] w-[100vw] items-center justify-center pb-56'>
+        <div className = 'flex h-[100vh] w-[100vw] items-center justify-center py-8'>
             <div style = {{ 
                 backgroundImage:' url(images/mainbg.jpg)', 
                 backgroundPosition: '50% 75%',
