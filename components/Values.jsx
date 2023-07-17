@@ -17,7 +17,7 @@ const Values = () => {
 
             <div className= 'flex p-10 h-[600px] w-[450px]  right-20 justify-center absolute bg-[#B84770] text-center '>
                 <div>
-                    <h3 className='font-bold text-3xl opacity-80'>Values</h3>
+                    <h3 className='font-bold text-3xl opacity-80'>What we provide</h3>
                    <h4 className='text-left text-lg py-2'>Warm Hospitality</h4>
                     <p className='text-left text-sm'>At our guest house, we take pride in providing warm and genuine hospitality to all our guests  From the moment you step through our doors, you'll be greeted with a friendly smile and a heartfelt welcome</p>
 
