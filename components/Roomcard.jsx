@@ -8,7 +8,7 @@ const Roomcard = () => {
             <div className=" max-w-[1240px] m-auto ">
                 <p className='text-3xl font-bold tracking-wide text-left pb-8'>Guest Rooms</p>
                 <div className='pb-8 text-right'>
-                    <button class=" bg-blue-[#C97291] hover:scale-105 ease-in duration-300 text-black font-bold py-2 px-4 border border-gray-700 rounded">
+                    <button class="  hover:scale-105 ease-in duration-300  bg-transparent object-right hover:bg-[#B84770] text-black  hover:text-white py-2 px-4 border border-gray-500 hover:border-transparent font-bold py-2 px-4 border border-gray-700 rounded">
                         View all rooms
                     </button>
                 </div>

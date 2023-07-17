@@ -7,18 +7,18 @@ const Review = () => {
 
         
         
-        <div className='w-full h-[500px] p-2 flex items-center  my-16 bg-[#EDA0BC] ' >
-            <div className=''>
+        <div className='w-full h-[500px] p-4 flex items-center  my-16 bg-[#EDA0BC] ' >
+            <div className='absolute pb-56 h-[550px]'>
                 <Image
                     priority
                     src= '/images/review.svg'
                     width={55}
-                    height={55}
+                    height={60}
                     alt="comma"
                 />
             </div>
 
-            <div className=' grid md:grid-cols-2 px-8 lg:grid-cols-3 gap-8 '>
+            <div className=' grid md:grid-cols-2 px-10 lg:grid-cols-3 gap-8 '>
                 <div className='bg-white rounded overflow-hidden shadow-md max-w-[500px] '>
 
                     <div className='font-bold text-xl py-8 px-8'>
@@ -131,6 +131,20 @@ const Review = () => {
                                 <BsStarHalf />
                             </div>
                         </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div className='items-center justify-center py-8'>
+                <div className='grid-cols-2 text-center '>
+                    <div className=''>
+                        <button className='font-bold py-2 px-4 rounded'>
+                            Next
+
+                        </button>
 
                     </div>
 
