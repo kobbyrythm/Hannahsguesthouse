@@ -3,7 +3,7 @@ import { FaBed, FaArrowRightLong } from "react-icons/fa6";
 
 const Roomcard = () => {
     return (
-        <div className="w-full lg:h-screen p-2 flex items-center text-center py-16">
+        <div className="w-full lg:h-screen  px-16 flex items-center text-center py-8">
 
             <div className=" max-w-[1240px] m-auto ">
                 <p className='text-3xl font-bold tracking-wide text-left pb-8'>Guest Rooms</p>

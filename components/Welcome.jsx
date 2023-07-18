@@ -2,13 +2,13 @@ import React from 'react'
 
 const Welcome = () => {
     return (
-        <div className='flex justify-center relative h-[550px] w-full  pt-16  my-16 border'>
+        <div className='flex justify-center relative h-[550px] w-full md:p-30 lg:p-40  pt-16  my-16 '>
             <div className=' absolute '>
                 <h1 className='font-bold text-3xl tracking-wider  '>Welcome To Hannah's Guest House</h1>
             </div>
             <div className='grid md:grid-cols-2 gap-8 py-16 px-8'>
-                <div className='flex-col py-8'>
-                    <div className='px-4 text-sm'>
+                <div className=' px-8 py-8'>
+                    <div className='px-8 text-sm'>
                         <p className='py-4 '>
                             Welcome to Hannah's Guest House! We are delighted to invite you to experience a warm and welcoming stay at our charming guest house in the heart of Aberdeen.
                             Nestled in the vibrant neighborhood of Bon Accord, our establishment offers a delightful blend of comfort, convenience, and Scottish hospitality
@@ -30,10 +30,10 @@ const Welcome = () => {
                         style={{
                             backgroundImage: "url(/images/outside.png)",
                             backgroundPosition: '50% 50%',
-                            backgroundSize: "400px",
+                            backgroundSize: "600px",
                             backgroundRepeat: "no-repeat",
                             height: "320px",
-                            width: "400px",
+                            width: "500px",
                         }}
 
                     ></div>
