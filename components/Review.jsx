@@ -18,7 +18,7 @@ const Review = () => {
                 />
             </div>
 
-            <div className=' grid md:grid-cols-2 px-10 lg:grid-cols-3 gap-8 '>
+            <div className=' grid md:grid-cols-2  py-8 px-10 lg:grid-cols-3 gap-8 '>
                 <div className='bg-white rounded overflow-hidden shadow-md max-w-[500px] '>
 
                     <div className='font-bold text-xl py-8 px-8'>

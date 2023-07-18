@@ -2,11 +2,11 @@ import React from 'react'
 
 const Welcome = () => {
     return (
-        <div className='flex justify-center relative h-[550px] w-full md:p-30 lg:p-40  pt-16  my-16 '>
+        <div className='flex justify-center relative h-[550px] w-full  pt-16  my-16 '>
             <div className=' absolute '>
                 <h1 className='font-bold text-3xl tracking-wider  '>Welcome To Hannah's Guest House</h1>
             </div>
-            <div className='grid md:grid-cols-2 gap-8 py-16 px-8'>
+            <div className='grid  mx-auto md:grid-cols-2  gap-8 py-16 px-8'>
                 <div className=' px-8 py-8'>
                     <div className='px-8 text-sm'>
                         <p className='py-4 '>

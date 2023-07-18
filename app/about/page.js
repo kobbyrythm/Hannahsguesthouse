@@ -5,7 +5,7 @@ import { GrGallery } from "react-icons/gr";
 
 const About = () => {
   return (
-    <div className="w-[100vw] max-h-full flex  ">
+    <div className="w-full max-h-full flex-col ">
       <div className="items-center justify-center">
         <div className="w-full h-[250px]">
           <div
@@ -19,7 +19,7 @@ const About = () => {
             }}
           >
             <div className="flex justify-center">
-              <p className="font-bold py-8 text-3xl tracking-wider text-white ">
+              <p className="font-bold py-8 text-[60px] tracking-wider text-white ">
                 About Us
               </p>
             </div>
@@ -36,7 +36,7 @@ const About = () => {
             <p className="font-bold py-8 text-3xl tracking-wider text-black">
               Welcome !
             </p>
-            <p className="px-40 text-sm tracking-wide  ">
+            <p className="px-16 text-sm tracking-wide  ">
               Welcome to Hannah's Guest House, a charming haven of comfort and
               hospitality in the heart of Aberdeen. Since its inception,
               Hannah's Guest House has been committed to delivering a
@@ -47,7 +47,7 @@ const About = () => {
               our exceptional service, attention to detail, and a genuine
               passion for ensuring our guests have a delightful stay.
             </p>
-            <p className="px-40 py-8 text-sm tracking-wide  ">
+            <p className="px-16 py-8 text-sm tracking-wide  ">
               As a family-run guest house, we understand the importance of
               personalized service. Our dedicated team is always on hand to
               assist with any requests, offer local recommendations, and ensure
@@ -59,11 +59,11 @@ const About = () => {
         </div>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-8 px-8 py-8 h-[450px] border">
+      <div className="grid sm:grid-cols-2 gap-8 px-8 py-8 h-[450px] border">
         <div className="  px-8 flex">
           <div>
             <p className="font-bold tracking-wider text-[60px] px-32 pt-16">
-              Bed & <br></br>Breakfast
+              Bed & <br/>Breakfast
             </p>
 
             <p className="text-sm px-32 ">Order breakfast from £5</p>
@@ -85,20 +85,20 @@ const About = () => {
         </div>
       </div>
 
-      <div className="  py-8 px-16 h-[500px]">
+      <div className="py-8 px-16 h-[500px]">
         <div className="flex justify-center">
           <p className="font-bold py-8 text-3xl tracking-wider text-black">
             Local Attractions
           </p>
-          <p className="px-40 text-sm tracking-wide py-4 ">
+          <div className="px-40 text-sm tracking-wide py-4 ">
             <div className="py-4">
               <MdMuseum size={40} />
             </div>
             <b>Aberdeen Maritime Museum</b>: Located on Shiprow, this
             award-winning museum showcases Aberdeen's rich maritime heritage,
             with exhibits on shipbuilding, fishing, and offshore oil industries.
-          </p>
-          <p className="px-40 text-sm tracking-wide py-4 ">
+          </div>
+          <div className="px-40 text-sm tracking-wide py-4 ">
             <div className="py-4">
               <MdPark size={40} />
             </div>
@@ -106,8 +106,8 @@ const About = () => {
             Park offers beautiful gardens, a boating pond, a winter gardens
             conservatory, and a children's play area, making it perfect for
             leisurely strolls and family outings.
-          </p>
-          <p className="px-40 text-sm tracking-wide py-4 ">
+          </div>
+          <div className="px-40 text-sm tracking-wide py-4 ">
             <div className="py-4">
               <GrGallery size={35} />
             </div>
@@ -115,7 +115,7 @@ const About = () => {
             fine art, the Aberdeen Art Gallery houses works from renowned
             artists, including Monet, Van Gogh, and Renoir, as well as local
             Scottish artists.
-          </p>
+          </div>
         </div>
       </div>
     </div>
