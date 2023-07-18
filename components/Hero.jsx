@@ -37,14 +37,14 @@ const Hero = () => {
     }
 
     return (
-        <div className='max-w-full h-[700px] w-full m-auto pb-16 relative group'>
+        <div className='max-w-full h-[700px] w-full m-auto pb-8 relative group'>
             <div style={{
                 backgroundImage: `url(${slides[currentIndex].url})`
             }}
-                className='w-full h-full rounded-sm bg-center bg-cover duration-500'>
+                className='w-full h-full rounded-lg bg-center bg-cover duration-500'>
             
             <div className = 'py-56 px-56'>
-                    <p className='text-center text-white  font-bold tracking-wider text-[120px] font-luxurious '>Hannah's</p>
+                    <p className=' scriptedfont text-center text-white  font-bold tracking-wider text-[120px] font-luxurious '>Hannah's</p>
                     <p className='text-center text-white tracking-wide text-[60px]'>GuestHouse</p>
             </div>
 

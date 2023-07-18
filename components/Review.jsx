@@ -7,7 +7,7 @@ const Review = () => {
 
         
         
-        <div className='w-full h-[500px] p-4 flex items-center  my-16 bg-[#EDA0BC] ' >
+        <div className='w-full h-[500px] p-4 flex items-center  my-8 bg-[#EDA0BC] ' >
             <div className='absolute pb-56 h-[550px]'>
                 <Image
                     priority

@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Ma+Shan+Zheng&family=Poppins&display=swap");
+
+
+/* 
+:root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
