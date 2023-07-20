@@ -59,7 +59,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="grid sm:grid-cols-2 gap-8 px-8 py-8 h-[450px] border">
+      <div className="grid sm:grid-cols-2 gap-8 px-8 py-8 h-[450px] divide">
         <div className="  px-8 flex">
           <div>
             <p className="font-bold tracking-wider text-[60px] px-32 pt-16">

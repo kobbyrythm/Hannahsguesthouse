@@ -7,10 +7,10 @@ const Hero = () => {
 
     const slides = [
         {
-            url: '/images/DelukeK.jpg'
+            url: '/images/view1.jpeg'
         },
         {
-            url: '/images/mainbg.jpg'
+            url: '/images/outsideview1.jpeg'
         },
         {
             url: '/images/single.jpg'
