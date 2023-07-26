@@ -2,7 +2,14 @@ import React from "react";
 import Link from "next/link";
 import { MdPark, MdMuseum, MdArrowBack } from "react-icons/md";
 import { GrGallery } from "react-icons/gr";
+import { Ma_Shan_Zheng } from "next/font/google";
 
+const mashen= Ma_Shan_Zheng({
+  weight: '400',
+  subsets: ['latin'],
+  display: 'swap',
+
+})
 const About = () => {
   return (
     <div className="w-full max-h-full flex-col ">
@@ -62,9 +69,11 @@ const About = () => {
       <div className="grid sm:grid-cols-2 gap-8 px-8 py-8 h-[450px] divide">
         <div className="  px-8 flex">
           <div>
-            <p className="font-bold tracking-wider text-[60px] px-32 pt-16">
-              Bed & <br/>Breakfast
-            </p>
+            <h1
+              className={`${mashen.className} text-[6rem] md:text-[12rem] text-white leading-[2.5rem] md:leading-[5.5rem]`}
+            >
+              Hanna&apos;s
+            </h1>
 
             <p className="text-sm px-32 ">Order breakfast from £5</p>
           </div>

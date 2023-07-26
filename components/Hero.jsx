@@ -1,9 +1,23 @@
 'use client';
-import React, {useState} from 'react'
+import React, {useState,useEffect} from 'react'
 import { BsChevronCompactRight, BsChevronCompactLeft, BsSearch } from "react-icons/bs";
+import { Luxurious_Script, Luxurious_Roman } from 'next/font/google';
 
+const luxurious = Luxurious_Script({
+    weight: '400',
+    subsets: ['latin-ext'],
+    display: 'swap',
+});
+
+const luxuriousR = Luxurious_Roman({
+    weight: '400',
+    subsets: ['latin-ext'],
+    display: 'swap',
+});
 
 const Hero = () => {
+
+    
 
     const slides = [
         {
@@ -35,6 +49,19 @@ const Hero = () => {
         const newIndex = isLastSlide ? 0 : currentIndex + 1;
         setCurrentIndex(newIndex);
     }
+    
+    const [checkIn, setCheckIn] = useState (new Date ());
+
+    useEffect(() => {
+        const script = document.createElement('script');
+        script.src = 'https://widget.freetobook.com/widget.js';
+        script.async = true;
+        document.body.appendChild(script);
+
+        return () => {
+            document.body.removeChild(script);
+        };
+    }, []);
 
     return (
         <div className='max-w-full h-[700px] w-full m-auto pb-8 relative group'>
@@ -43,10 +70,18 @@ const Hero = () => {
             }}
                 className='w-full h-full rounded-lg bg-center bg-cover duration-500'>
             
-            <div className = 'py-56 px-56'>
-                    <p className=' scriptedfont text-center text-white  font-bold tracking-wider text-[120px] font-luxurious '>Hannah's</p>
-                    <p className='text-center text-white tracking-wide text-[60px]'>GuestHouse</p>
-            </div>
+                <div className='bg-black/60 h-full w-full flex justify-center items-center flex-col gap-2'>
+                    <h1
+                        className={`${luxurious.className} text-[6rem] md:text-[12rem] text-white leading-[2.5rem] md:leading-[5.5rem]`}
+                    >
+                        Hannah&apos;s
+                    </h1>
+                    <h2
+                        className={`${luxuriousR.className} text-[1.5rem] md:text-[3.0rem] text-white`}
+                    >
+                        Guest House
+                    </h2>
+                </div>
 
             </div>
 
@@ -57,47 +92,12 @@ const Hero = () => {
                  < BsChevronCompactLeft onClick={prevSlide} size={30} />
             </div>
 
-            <div className='flex absolute h-[100px] w-[900px] mx-96 rounded-3xl shadow-sm border -my-8 bg-white  text-black items-center  '>
-
-                <div className='flex grid-cols-4 gap-8'>
-                    <div className=' py-4 px-8'>
-                        <p className='font-bold pb-3 px-4 tracking-wide'>CHECK IN</p>
-                        <p className='px-4 text-sm opacity-50'>Add date</p>
-
-                    </div>
-
-                    <div className=' py-4 px-8'>
-                        <p className='font-bold pb-3 px-4 tracking-wide'>CHECK OUT</p>
-                        <p className='px-4 text-sm opacity-50'>Add date</p>
-                       
-
-                    </div>
-                    
-                    <div className='py-4 px-8'>
-                        <p className='font-bold pb-3 px-4 tracking-wide'>GUESTS</p>
-                        <select className='w-full text-sm opacity-50 leading-tight item-center  focus:outline-none '>
-                            <option>Add Guests</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
-                        
-                    </div>
-
-                    <div className=' pt-4 pl-40  hover:scale-105 ease-in duration-300  cursor-pointer '>
-                        
-                        <div className=' hover:bg-[#b66482] bg-[#B84770] px-3 py-3 rounded-xl'>
-                            <BsSearch size={30} />
-                        </div>
-                      
-
-
-                    </div>
-
-                </div>
-
+            <div className=' bg-white absolute md:left-14 p-6 lg:bottom-8 md:-bottom-28 -bottom-32 rounded-2xl border-[0.1px] border-black/20 drop-shadow-md flex justify-between text-sm md:text-lg'>
+                <div
+                    className='ftb-widget'
+                    data-id='process.env.DATA_ID'
+                    data-token='process.env.DATA_TOKEN'
+                ></div>
             </div>
 
         </div>

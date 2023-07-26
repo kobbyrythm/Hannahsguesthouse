@@ -15,13 +15,13 @@ const Navbar = () => {
 	return (
 		<div className='flex justify-between px-12 py-4 bg-[#B84770]'>
 			<div>
-				<Image src='/Logo.png' height={55} width={55} alt='HannahsLogo' />
+				<Image src='/Logo.png' height={50} width={50} alt='HannahsLogo' />
 			</div>
-			<div className='flex-row gap-5 items-center hidden md:flex lg:flex'>
+			<div className='flex-row gap-5 items-center hidden md:flex lg:flex text-white font-medium'>
 				<Link href='/'>
 					<h3>Home</h3>
 				</Link>
-				<Link href='rooms'>
+				<Link href='contact'>
 					<h3>Rooms</h3>
 				</Link>
 				<Link href='about'>
@@ -32,12 +32,12 @@ const Navbar = () => {
 				</Link>
 			</div>
 			<div>
-				<button className='hidden p-2 justify-center items-center md:flex text-black bg-white border-r-4'>
-					Book Now
+				<button className='hidden p-2 px-8 justify-center items-center md:flex text-black bg-white rounded-full border-r-1 border-r-black font-medium hover:bg-white/90'>
+					<h1>Book Now</h1>
 				</button>
 			</div>
 			<button className='flex md:hidden text-2xl' onClick={handleMobileMenu}>
-				<HiMenuAlt2 />
+				<HiMenuAlt2 color='white' />
 			</button>
 			<div
 				className={
