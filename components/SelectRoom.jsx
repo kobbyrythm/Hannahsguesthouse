@@ -1,4 +1,6 @@
 import React from 'react'
+import Link from "next/link";
+import { MdArrowBack, MdBed, MdLiving, MdFreeBreakfast, MdOutlineLocalParking, MdOutlineWifi } from "react-icons/md";
 
 const SelectRoom = (props) => {
   return (

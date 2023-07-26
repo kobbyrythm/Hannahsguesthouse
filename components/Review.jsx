@@ -7,8 +7,8 @@ const Review = () => {
 
         
         
-        <div className='w-full h-[500px] p-4 flex items-center  my-8 bg-[#EDA0BC] ' >
-            <div className='absolute pb-56 h-[550px]'>
+        <div className='w-full  p-4 flex items-center  my-8 bg-[#EDA0BC] ' >
+            <div className='absolute pb-56 md:h-[500px]'>
                 <Image
                     priority
                     src= '/images/review.svg'
@@ -131,20 +131,6 @@ const Review = () => {
                                 <BsStarHalf />
                             </div>
                         </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div className='items-center justify-center py-8'>
-                <div className='grid-cols-2 text-center '>
-                    <div className=''>
-                        <button className='font-bold py-2 px-4 rounded'>
-                            Next
-
-                        </button>
 
                     </div>
 
