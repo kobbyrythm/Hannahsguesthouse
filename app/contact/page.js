@@ -84,7 +84,7 @@ function Contact() {
 						<div className='opacity-50 flex items-center md:items-center flex-col'>
 							<div className='flex  items-center pb-5 gap-2 text-sm'>
 								<FaLocationDot />
-								<p>193 Bon Accord Street, Aberdeen, AB11 6UA, United Kingdom</p>
+								<p>193 Bon Accord Street, Aberdeen, AB11 6UA, UK</p>
 							</div>
 							<div className='flex items-center pb-5 text-sm'>
 								<span className='mr-2'>

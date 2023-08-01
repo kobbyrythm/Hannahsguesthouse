@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react';
 import { FreeMode, Navigation, Controller } from 'swiper/modules';
 import 'swiper/css';
 import { MdNavigateNext, MdNavigateBefore } from 'react-icons/md';
-// import TestimonialData from './(sampleData)/testimonials.json';
+// import TestimonialData from '../../(sampleData)/testimonials.json';
 
 const Review = () => {
 
@@ -63,7 +63,7 @@ const Review = () => {
                 direction='horizontal'
                 onSwiper={(swiper) => setSwiperRef(swiper)}
             >
-                {/* {TestimonialData?.map((x, index) => (
+                {/* {TestimonialDadta?.map((x, index) => (
                     <SwiperSlide key={index}>
                         <div className='bg-white h-80 lg:h-96 rounded-[10px] min-w-[19rem] md:w-[18rem] lg:w-[26rem] flex flex-col my-6 text-black p-8 shadow-3xl drop-shadow-md border-[0.5px] '>
                             <div className='gap-x-4 h-[80%] overflow-hidden'>

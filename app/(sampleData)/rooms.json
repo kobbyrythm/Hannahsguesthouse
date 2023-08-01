@@ -33,15 +33,15 @@
 		"photos": [
 			{
 				"alt": "single room main",
-				"src": "/heroImage.jpg"
+				"src": "images/bed11.jpeg"
 			},
-			{
+				{
 				"alt": "single room main",
-				"src": "/heroImage.jpg"
+				"src": "images/bed11.jpeg"
 			},
-			{
+				{
 				"alt": "single room main",
-				"src": "/bedroom.jpg"
+				"src": "images/bed11.jpeg"
 			}
 		]
 	},
@@ -83,11 +83,11 @@
 		"photos": [
 			{
 				"alt": "single room main",
-				"src": "/heroImage.jpg"
+				"src": "images/bed11.jpeg"
 			},
 			{
 				"alt": "single room main",
-				"src": "/heroImage.jpg"
+				"src": "images/bed11.jpeg"
 			}
 		]
 	},
@@ -125,11 +125,11 @@
 		"photos": [
 			{
 				"alt": "single room main",
-				"src": "/heroImage.jpg"
+				"src": "images/bed11.jpeg"
 			},
 			{
 				"alt": "single room main",
-				"src": "/heroImage.jpg"
+				"src": "images/bed11.jpeg"
 			}
 		]
 	},
@@ -167,11 +167,11 @@
 		"photos": [
 			{
 				"alt": "single room main",
-				"src": "/heroImage.jpg"
+				"src": "images/bed11.jpeg"
 			},
 			{
 				"alt": "single room main",
-				"src": "/heroImage.jpg"
+				"src": "images/bed11.jpeg"
 			}
 		]
 	},
@@ -209,11 +209,11 @@
 		"photos": [
 			{
 				"alt": "single room main",
-				"src": "/heroImage.jpg"
+				"src": "images/bed11.jpeg"
 			},
 			{
 				"alt": "single room main",
-				"src": "/heroImage.jpg"
+				"src": "images/bed11.jpeg"
 			}
 		]
 	},
@@ -251,11 +251,11 @@
 		"photos": [
 			{
 				"alt": "single room main",
-				"src": "/heroImage.jpg"
+				"src": "images/bed11.jpeg"
 			},
 			{
 				"alt": "single room main",
-				"src": "/heroImage.jpg"
+				"src": "images/bed11.jpeg"
 			}
 		]
 	},
@@ -293,11 +293,11 @@
 		"photos": [
 			{
 				"alt": "single room main",
-				"src": "/heroImage.jpg"
+				"src": "images/bed11.jpeg"
 			},
 			{
 				"alt": "single room main",
-				"src": "/heroImage.jpg"
+				"src": "images/bed11.jpeg"
 			}
 		]
 	}
