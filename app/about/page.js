@@ -70,9 +70,9 @@ const About = () => {
         <div className="  px-8 flex">
           <div>
             <h1
-              className={`${mashen.className} text-[6rem] md:text-[12rem] text-white leading-[2.5rem] md:leading-[5.5rem]`}
+              className={`${mashen.className} text-[5rem] md:text-[12rem] text-black leading-[2.5rem] md:leading-[5.5rem]`}
             >
-              Hanna&apos;s
+              Bed & <br />Breakfast
             </h1>
 
             <p className="text-sm px-32 ">Order breakfast from £5</p>

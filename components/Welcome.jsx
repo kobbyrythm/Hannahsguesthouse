@@ -3,7 +3,7 @@ import React from 'react'
 const Welcome = () => {
     return (
         <div className=''>
-            <section className='py-20 md:py-36 flex items-center text-base flex-col mt-20 md:mt-0'>
+            <section className='py-20 md:py-30 flex items-center text-base flex-col mt-20 md:mt-0'>
                 <h1 className='  text-2xl md:text-4xl  font-semibold tracking-wider'>Welcome to Hannah&apos;s Guest House</h1>
                 <div className='flex flex-col lg:flex-row mt-10 md:mt-16 w-full gap-12'>
                     <div className='lg:w-[50%] flex flex-col justify-center items-center px-10 md:px-20 text-justify '>
