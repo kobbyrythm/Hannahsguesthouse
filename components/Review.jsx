@@ -7,7 +7,8 @@ import { Swiper, SwiperSlide, useSwiper, SwiperRef } from 'swiper/react';
 import { useEffect, useState } from 'react';
 import { FreeMode, Navigation, Controller } from 'swiper/modules';
 import 'swiper/css';
-import TestimonialData from './(data)/testimonials.json';
+import { MdNavigateNext, MdNavigateBefore } from 'react-icons/md';
+// import TestimonialData from './(sampleData)/testimonials.json';
 
 const Review = () => {
 
@@ -33,16 +34,14 @@ const Review = () => {
                 &apos;&apos;
             </h1>
             <Swiper
-                // freeMode
-                // grabCursor
-
+               
                 modules={[Controller, FreeMode]}
                 className='catSwiper  w-[90%]'
                 breakpoints={{
                     0: {
                         slidesPerView: 1.1,
                         spaceBetween: 10,
-                        // centeredSlides: true,
+                       
                     },
                     480: {
                         slidesPerView: 2.5,
@@ -64,7 +63,7 @@ const Review = () => {
                 direction='horizontal'
                 onSwiper={(swiper) => setSwiperRef(swiper)}
             >
-                {TestimonialData?.map((x, index) => (
+                {/* {TestimonialData?.map((x, index) => (
                     <SwiperSlide key={index}>
                         <div className='bg-white h-80 lg:h-96 rounded-[10px] min-w-[19rem] md:w-[18rem] lg:w-[26rem] flex flex-col my-6 text-black p-8 shadow-3xl drop-shadow-md border-[0.5px] '>
                             <div className='gap-x-4 h-[80%] overflow-hidden'>
@@ -89,7 +88,7 @@ const Review = () => {
                             </div>
                         </div>
                     </SwiperSlide>
-                ))}
+                ))} */}
             </Swiper>
             <div className='flex justify-center items-center p-12'>
                 <div className='rounded-full flex justify-between border-[1px] bg-white shadow-md drop-shadow-sm border-gray-200 py-2 px-5 w-32 text-2xl'>
