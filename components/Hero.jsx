@@ -95,7 +95,7 @@ const Hero = () => {
             </div>
 
                 {/* freetobook widget */}
-            <div className=' bg-white absolute md:left-[12%] lg:left-[25%] md:p-2  p-6 lg:-bottom-8 md:-bottom-12 -bottom-32 rounded-large md:rounded-none border-[0.1px] border-black/20 drop-shadow-md flex-row flex justify-between text-sm md:text-lg '>
+            <div className=' bg-white absolute md:left-[12%] lg:left-[25%] md:p-2  p-6 lg:-bottom-8 md:-bottom-12 -bottom-32 rounded-2xl md:rounded-none border-[0.1px] border-black/20 drop-shadow-md flex-row flex justify-between text-sm md:text-lg '>
                 <div
                     className='ftb-widget md:w-[500px] lg:w-[800px]'
                     data-id='process.env.DATA_ID'

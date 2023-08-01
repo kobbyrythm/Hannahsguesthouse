@@ -3,6 +3,10 @@ import Review from '@/components/Review';
 import Values from '@/components/Values';
 import Hero from '@/components/Hero';
 import Welcome from '@/components/Welcome';
+import React from "react";
+
+
+
 
 
 export default function Home() {
@@ -10,8 +14,8 @@ export default function Home() {
 		<div>
 			< Hero />
 			< Welcome />
-			< Values />
 			<Roomcard />
+			< Values />
 			<Review />
 
 		</div>

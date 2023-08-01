@@ -34,9 +34,14 @@ const Navbar = () => {
 				</Link>
 			</div>
 			<div>
-				<button className='hidden p-2 px-8 justify-center items-center md:flex text-black bg-white rounded-full border-r-1 border-r-black font-medium hover:bg-white/90'>
-					<h1>Book Now</h1>
-				</button>
+				<Link href={
+					'https://portal.freetobook.com/reservations?w_id=20201&w_tkn=R2QXxtCo5naWwHl1KSGAgE16oHBB3Xfsjlk758elAvKw2pW9GR3ClcgObUEzf'
+				}>
+					<button className='hidden p-2 px-8 justify-center items-center md:flex text-black bg-white rounded-full border-r-1 border-r-black font-medium hover:bg-white/90'>
+						<h1>Book Now</h1>
+					</button>
+				</Link>
+				
 			</div>
 			<button className='flex md:hidden text-2xl' onClick={handleMobileMenu}>
 				<HiMenuAlt2 color='white' />

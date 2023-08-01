@@ -29,11 +29,6 @@ function Contact() {
 				}}
 				className='h-[20vh] lg:h-[30vh] flex justify-center items-center relative'
 			>
-				<div className=" absolute top-4 left-4 w-10% flex bg-black/20 text-white rounded-full p-2  cursor-pointer">
-					<Link href="/">
-						<MdArrowBack size={30} />
-					</Link>
-				</div>
 
 				<div className='bg-black/60 h-full w-full flex justify-center items-center flex-col gap-2'>
 					<h1 className='text-4xl md:text-5xl lg:text-6xl font-bold text-white'>
@@ -84,7 +79,7 @@ function Contact() {
 						<div className='opacity-50 flex items-center md:items-center flex-col'>
 							<div className='flex  items-center pb-5 gap-2 text-sm'>
 								<FaLocationDot />
-								<p>193 Bon Accord Street, Aberdeen, AB11 6UA, United Kingdom</p>
+								<p>193 Bon Accord Street, Aberdeen, AB11 6UA, UK</p>
 							</div>
 							<div className='flex items-center pb-5 text-sm'>
 								<span className='mr-2'>
