@@ -1,25 +1,38 @@
-import React from 'react'
-import { FaLocationDot, FaSquareFacebook, FaInstagram, FaAt, FaPhone, FaTiktok } from "react-icons/fa6";
 import Link from 'next/link';
+import React from 'react';
+import {
+    FaPhone,
+    FaAt,
+    FaFacebookSquare,
+    FaInstagram,
+    FaTiktok,
+} from 'react-icons/fa';
+import { FaLocationDot } from 'react-icons/fa6';
 
-const Footer = () => {
+function Footer() {
     return (
-        <footer className='flex bottom-10 flex-wrap justify-between bg-black pb-20 pt-20 px-60  justify-items-center  w-full  text-white '>
-            <div className=' px-4'>
-                <div className='font-bold text-2xl pb-4'><h3>Get In Touch</h3></div>
-                <div className='opacity-50'>
-                    <p className="flex  items-center pb-3">
-                        <span className="mr-2"><FaLocationDot /></span>
-                        Bon Accord AB11 6UA
-                    </p>
-                    <p className='flex items-center pb-3'>
-                        <span className='mr-2'><FaPhone /></span>
+        <footer className='flex flex-col md:flex-row bg-[#000000] items-center py-10 gap-10 md:items-stretch justify-center lg:gap-40  w-full  text-white '>
+            <div className=' px-4 flex flex-col items-center'>
+                <div className='font-bold text-2xl pb-4'>
+                    <h3>Get In Touch</h3>
+                </div>
+                <div className='opacity-50 flex items-center md:items-start flex-col'>
+                    <div className='flex  items-center pb-3 gap-2'>
+                        <FaLocationDot />
+                        <p>193 Bon Accord Street, Aberdeen, AB11 6UA, United Kingdom</p>
+                    </div>
+                    <div className='flex items-center pb-3'>
+                        <span className='mr-2'>
+                            <FaPhone />
+                        </span>
                         +44 7753662690
-                    </p>
-                    <p className='flex items-center'>
-                        <span className='mr-2'><FaAt /></span>
+                    </div>
+                    <div className='flex items-center'>
+                        <span className='mr-2'>
+                            <FaAt />
+                        </span>
                         hannahsguesthouse@gmail.com
-                    </p>
+                    </div>
                 </div>
             </div>
 
@@ -39,22 +52,26 @@ const Footer = () => {
                         <h3>Contact</h3>
                     </Link>
                 </div>
-                
             </div>
 
-            <div >
+            <div>
                 <h3 className='font-bold text-2xl pb-4'>Our Social Media</h3>
-                <div className="flex justify-center">
-                    <div className="flex opacity-50 text-center gap-5">
-                        <span className="text-3xl"><FaSquareFacebook /></span>
-                        <span className="text-3xl"><FaInstagram /></span>
-                        <span className="text-3xl"><FaTiktok /></span>
+                <div className='flex justify-center'>
+                    <div className='flex opacity-50 text-center gap-5'>
+                        <span className='text-3xl'>
+                            <FaFacebookSquare />
+                        </span>
+                        <span className='text-3xl'>
+                            <FaInstagram />
+                        </span>
+                        <span className='text-3xl'>
+                            <FaTiktok />
+                        </span>
                     </div>
                 </div>
             </div>
         </footer>
-
     );
-};
+}
 
 export default Footer;

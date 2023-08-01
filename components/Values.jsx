@@ -15,7 +15,7 @@ const Values = () => {
                     className='relative w-[100vw]  my-28 '
                 >
                     <div className=' bg-[#B84770] flex p-10 md:absolute h-auto w-[100%] md:w-[550px] -top-20 right-20 items-center text-lg flex-col text-white '>
-                        <h1 className='text-white text-xl font-semibold '>Values</h1>
+                        <h1 className='text-white text-xl font-semibold underline underline-offset-1'>What we offer</h1>
                         <h1 className='self-start mt-4 font-medium'>Warm Hospitality</h1>
                         <p className=' text-white/60'>
                             At our guest house, we take pride in providing warm and genuine
