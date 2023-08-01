@@ -23,11 +23,6 @@ const About = () => {
         className="h-[20vh] lg:h-[30vh] flex justify-center items-center relative"
       >
 
-        <div className=" absolute top-4 left-4 w-10% flex bg-black/20 text-white rounded-full p-2  cursor-pointer">
-          <Link href="/">
-            <MdArrowBack size={30} />
-          </Link>
-        </div>
 
         <div className="bg-black/60 h-full w-full flex justify-center items-center flex-col gap-2">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white">
@@ -97,7 +92,7 @@ const About = () => {
 
         <div className='flex flex-col md:flex-row mt-10 text-lg px-8 gap-14 '>
           <div className='md:w-[45%] lg:w-[35%] flex flex-col  gap-2 justify-center items-center cursor-pointer'>
-            <Link href="/https://www.aberdeencity.gov.uk/AAGM/plan-your-visit/aberdeen-maritime-museum">
+            <Link href="https://www.aberdeencity.gov.uk/AAGM/plan-your-visit/aberdeen-maritime-museum">
               <h1 className='font-bold gap-2 flex md:flex-col lg:flex-row justify-center items-center'>
                 <MdMuseum />
                 Aberdeen Maritime Museum
@@ -111,7 +106,7 @@ const About = () => {
             </p>
           </div>
           <div className='md:w-[45%] lg:w-[35%] flex flex-col  gap-2 justify-center items-center cursor-pointer'>
-            <Link href="/https://www.aberdeencity.gov.uk/services/leisure-culture-and-parks/parks-and-gardens/duthie-park">
+            <Link href="https://www.aberdeencity.gov.uk/services/leisure-culture-and-parks/parks-and-gardens/duthie-park">
               <h1 className='font-bold gap-2 flex justify-center items-center md:flex-col lg:flex-row '>
                 <MdPark />
                 Duthie Park
@@ -126,7 +121,7 @@ const About = () => {
             </p>
           </div>
           <div className='md:w-[45%] lg:w-[35%] flex flex-col  gap-2 justify-center items-center cursor-pointer'>
-            <Link href="/https://www.aberdeencity.gov.uk/AAGM/plan-your-visit/aberdeen-art-gallery">
+            <Link href="https://www.aberdeencity.gov.uk/AAGM/plan-your-visit/aberdeen-art-gallery">
               <h1 className='font-bold gap-2 flex justify-center items-center md:flex-col lg:flex-row'>
                 <GrGallery />
                 Aberdeen Art Gallery

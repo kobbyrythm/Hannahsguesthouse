@@ -59,11 +59,6 @@ function RoomDetails({ params }) {
         <section>
             {/* Title */}
             <div className='p-10 flex flex-col md:flex-row gap-y-5 justify-between'>
-                <div className=" absolute top-20 left-4 w-10% flex bg-black/20 text-white rounded-full p-2  cursor-pointer">
-                    <Link href="/rooms">
-                        <MdArrowBack size={30} />
-                    </Link>
-                </div>
                 <div className='flex flex-row text-lg lg:text-xl gap-5 items-center'>
                     <h1 className='font-bold '>{roomDetails.title}</h1>
                     <div className='h-2 w-2 bg-black rounded-full'></div>
@@ -128,10 +123,6 @@ function RoomDetails({ params }) {
                     <span>
                         {roomDetails.size}m<sup>2</sup>
                     </span>
-                </h1>
-                <h1 className='flex gap-2 justify-center items-center'>
-                    <PiUsersDuotone size={30} />
-                    {roomDetails.guests}
                 </h1>
             </div>
 

@@ -93,7 +93,7 @@
 	},
 	{
 		"title": "Deluxe King Room",
-		"rate": "$250/night",
+		"rate": "£70/night",
 		"guests": "2 Guests",
 		"size": "25",
 		"details": "The double room offers a seating area and a wardrobe, as well as a private bathroom boasting a shower. The unit has 1 bed.",
@@ -177,7 +177,7 @@
 	},
 	{
 		"title": "Standard Double Room with Shared Bathroom",
-		"rate": "$250/night",
+		"rate": "£70/night",
 		"guests": "2 Guests",
 		"size": "18",
 		"details": "The double room has parquet floors, a seating area with a flat-screen TV, a wardrobe, an electric kettle, as well as heating. The unit has 1 bed.",
@@ -219,7 +219,7 @@
 	},
 	{
 		"title": "Double Room with Private Bathroom",
-		"rate": "$250/night",
+		"rate": "£70/night",
 		"guests": "2 Guests",
 		"size": "20",
 		"details": "The double room provides a seating area and a wardrobe, as well as a private bathroom featuring a shower. The unit offers 1 bed.",
