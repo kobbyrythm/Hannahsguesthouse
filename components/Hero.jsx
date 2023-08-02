@@ -80,7 +80,7 @@ const Hero = () => {
                 <h1
                     className={`${luxurious.className} text-[6rem] md:text-[12rem] text-white leading-[2.5rem] md:leading-[5.5rem]`}
                 >
-                    Hanna&apos;s
+                    Hannah&apos;s
                 </h1>
                 <h2
                     className={`${luxuriousR.className} text-[1.5rem] md:text-[3.0rem] text-white`}

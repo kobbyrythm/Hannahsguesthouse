@@ -221,10 +221,15 @@ function RoomDetails({ params }) {
                     {Rooms.filter((x) => x.name !== title)
                         .slice(0, 3)
                         .map((x, index) => (
+
+                           
                             <div
                                 key={index}
                                 className='w-[350px] border-black/10 border-2 flex flex-col rounded-lg overflow-hidden'
                             >
+                                < Link href={`/rooms/${x.name.replace(/ /g, '-')}`} >
+
+                                
                                 <div
                                     className='bg-cover h-[200px]'
                                     style={{
@@ -242,6 +247,7 @@ function RoomDetails({ params }) {
                                         {x.bed}
                                     </p>
                                 </div>
+                                </Link>
                             </div>
                         ))}
                 </div>
