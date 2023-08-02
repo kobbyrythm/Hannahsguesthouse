@@ -19,7 +19,7 @@ function Footer() {
                 <div className='opacity-50 flex items-center md:items-start flex-col'>
                     <div className='flex  items-center pb-3 gap-2'>
                         <FaLocationDot />
-                        <p>193 Bon Accord Street, Aberdeen, AB11 6UA, United Kingdom</p>
+                        <p>193 Bon Accord Street, Aberdeen, AB11 6UA, UK</p>
                     </div>
                     <div className='flex items-center pb-3'>
                         <span className='mr-2'>

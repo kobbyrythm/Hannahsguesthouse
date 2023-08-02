@@ -77,6 +77,7 @@ const About = () => {
               backgroundRepeat: "no-repeat",
               height: "320px",
               width: "500px",
+              overflow:"hidden"
             }}
           ></div>
         </div>
