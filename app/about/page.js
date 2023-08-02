@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { MdPark, MdMuseum, MdArrowBack } from "react-icons/md";
 import { GrGallery } from "react-icons/gr";
+import Image from "next/image";
 import { Ma_Shan_Zheng } from "next/font/google";
 
 
@@ -58,7 +59,8 @@ const About = () => {
       </section>
 
 
-      <section className=' flex flex-col py-10 md:flex-row gap-y-10'>
+
+      <section className=' flex flex-col md:flex-row gap-y-10'>
         <div className='md:w-[50%] flex flex-col justify-center items-center '>
           <h1 className={` ${mashen.className} text-[5rem] leading-none`}>
             Bed & <p>Breakfast</p>
@@ -67,24 +69,19 @@ const About = () => {
             Order breakfast from £5.50
           </span>
         </div>
-        <div className='md:w-[50%] mx-16 px-16 mb-10'>
-          <div
-            className="rounded-md"
-            style={{
-              backgroundImage: "url(/images/breakfastt.jpeg)",
-              backgroundPosition: "50% 50%",
-              backgroundSize: "500px",
-              backgroundRepeat: "no-repeat",
-              height: "320px",
-              width: "500px",
-              overflow:"hidden"
-            }}
-          ></div>
+        <div className='md:w-[50%]'>
+          <Image
+            src={'/images/breakfastt.jpeg'}
+            className='w-full h-auto'
+            height={1500}
+            width={1500}
+            alt='hannahs breakfast'
+          />
         </div>
       </section>
 
 
-      <section className='py-10 bg-pink-200 '>
+      <section className='py-10 bg-pink-200 mt-10'>
         <div className='flex justify-center items-center'>
           <div className='flex justify-center items-center w-[300px] md:w-[350px] text-lg md:text-2xl font-bold py-2 px-8 rounded-full bg-white border-[]'>
             <h1>Local Attractions</h1>
