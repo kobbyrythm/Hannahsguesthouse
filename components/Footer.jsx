@@ -16,7 +16,7 @@ function Footer() {
                 <div className='font-bold text-2xl pb-4'>
                     <h3>Get In Touch</h3>
                 </div>
-                <div className='opacity-50 flex items-center md:items-start flex-col'>
+                <div className='opacity-50 text-sm flex items-center md:items-start flex-col'>
                     <div className='flex  items-center pb-3 gap-2'>
                         <FaLocationDot />
                         <p>193 Bon Accord Street, Aberdeen, AB11 6UA, UK</p>
