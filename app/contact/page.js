@@ -43,12 +43,13 @@ function Contact() {
 							<h1 className='font-bold text-2xl'>Get in Touch With Us</h1>
 						</div>
 						{/* Contact Form with React-hook-form */}
-						<form onSubmit={handleSubmit(onSubmit)} className='flex flex-col'>
+						<form onSubmit={handleSubmit(onSubmit)} className='flex flex-col' action="https://formsubmit.co/rexfordbiz@gmail.com" method = "POST">
 							<label>Full Name</label>
 							<input
 								placeholder='Enter Full Name'
 								{...register('firstName')}
 								className='mb-6 border-[1px] px-4 py-2'
+								name = 'name'
 							/>
 
 							<label>Email</label>
@@ -56,6 +57,7 @@ function Contact() {
 								placeholder='Enter Your Email'
 								{...register('Email')}
 								className='mb-6 border-[1px] px-4 py-2'
+								name = 'email'
 							/>
 
 							<label>Message</label>
@@ -64,12 +66,14 @@ function Contact() {
 								placeholder='Enter A Message'
 								{...register('Message')}
 								className='mb-6 border-[1px] px-4 py-2 h-32'
+								name = 'message'
 							/>
 
-							<input
+							<button
 								type='submit'
 								className='p-5 bg-[#B84770] text-white font-bold'
-							/>
+							> Submit
+							</button>
 						</form>
 					</div>
 					<div className='md:w-[50%] px-2 md:px-10 lg:px-20'>
@@ -91,7 +95,7 @@ function Contact() {
 								<span className='mr-2'>
 									<FaAt />
 								</span>
-								hannahsguesthouse@gmail.com
+								hannahsguesthouse@yahoo.com
 							</div>
 						</div>
 					</div>
