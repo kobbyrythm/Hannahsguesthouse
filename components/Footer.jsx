@@ -31,7 +31,7 @@ function Footer() {
                         <span className='mr-2'>
                             <FaAt />
                         </span>
-                        hannahsguesthouse@gmail.com
+                        hannahsguesthouse@yahoo.com
                     </div>
                 </div>
             </div>
