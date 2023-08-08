@@ -16,7 +16,7 @@ const Navbar = () => {
 		<div className='flex justify-between px-12 py-4 bg-[#B84770]'>
 			<div>
 				<Link href='/'>
-					<Image src='/Logo.png' height={50} width={50} alt='HannahsLogo' />
+					<Image src='/Logo.png' height={50} width={50} alt='HannahsLogo' style = {{height:"auto", width:"auto"}} />
 				</Link>
 			</div>
 			<div className='flex-row gap-5 items-center hidden md:flex lg:flex text-white font-medium'>
