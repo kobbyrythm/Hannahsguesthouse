@@ -38,14 +38,10 @@ const About = () => {
         <h1 className='font-bold text-2xl'>Welcome!</h1>
         <p className='text-center'>
           Welcome to Hannah&apos;s Guest House, a charming haven of comfort and
-          hospitality in the heart of Aberdeen. Since its inception,
-          Hannah&apos;s Guest House has been committed to delivering a
-          personalized and memorable experience for each and every guest. Our
-          story began with a vision to create a home away from home, where
-          visitors can unwind, recharge, and immerse themselves in the beauty of
-          Aberdeen. Over the years, we have become renowned for our exceptional
-          service, attention to detail, and a genuine passion for ensuring our
-          guests have a delightful stay.
+          hospitality in the heart of Aberdeen. Hannahs Guesthouse is situated on a quiet street in the Ferryhill area of central Aberdeen. Close to Union Square, the bus and train station. Union Street is only a five minute walk away and is the main street in Aberdeen - here you can find plenty of bars, shops and restaurants. Altens/Tullos industrial sites and training centres are within easy reach.
+
+
+          
         </p>
 
         <p className='text-center'>
