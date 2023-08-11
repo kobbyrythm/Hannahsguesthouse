@@ -35,8 +35,7 @@ const Values = () => {
             </h1>
             <p className=" text-white/60">
               Immerse yourself in the vibrant atmosphere of our neighborhood,
-              with an array of bars, restaurants, and the esteemed Ferryhill
-              House Hotel just steps away.
+              with an array of bars, restaurants, and the esteemed Duthie Park just steps away.
             </p>
           </div>
         </div>
