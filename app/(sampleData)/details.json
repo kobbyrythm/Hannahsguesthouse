@@ -1,18 +1,13 @@
 [
 	{
 		"name": "Double Room with Shared Bathroom",
-		"image": "/images/DeluxeK.jpg",
+		"image": "/images/dbsharedbath/dbsharedbath.jpg",
 		"bed": "1 Double Bed"
 	},
 	{
-		"name": "Superior King Room",
-		"image": "/images/King.jpg",
-		"bed": "1 extra large Double Bed or 1 Single Bed"
-	},
-	{
-		"name": "Standard Double Room with Shared Bathroom",
-		"image": "/images/room44.jpeg",
-		"bed": "1 Double Bed"
+		"name": "Super King Room",
+		"image": "/images/room1/room11.jpg",
+		"bed": "1 SuperKing Bed "
 	},
 	{
 		"name": "Single Room",
@@ -20,9 +15,14 @@
 		"bed": "1 Single Bed"
 	},
 	{
-		"name": "Deluxe King Room",
-		"image": "/images/valuebg.jpg",
-		"bed": "1 Large Double Bed"
+		"name": " King Room",
+		"image": "/images/room5/kingroom.jpeg",
+		"bed": "1 kingsize Bed"
+	},
+	{
+		"name": " King Garden Room",
+		"image": "/images/room2/kinggarden2.jpeg",
+		"bed": "1 kingsize Bed"
 	},
 	{
 		"name": "Double Room with Private Bathroom",
@@ -30,13 +30,8 @@
 		"bed": "1 Double Bed"
 	},
 	{
-		"name": "King Room",
-		"image": "/images/bed1.jpeg",
-		"bed": "1 Extra-Large Double Bed"
-	},
-	{
 		"name": "Double Room with Shared Bathroom",
-		"image": "/images/view1.jpeg",
+		"image": "/images/dbsharedbath/dbsharedbath.jpg",
 		"bed": "1 Double Bed"
 	}
 ]

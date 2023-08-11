@@ -10,7 +10,7 @@ const Welcome = () => {
                         Welcome to Hannah&apos;s Guest House! We are delighted to invite
                         you to experience a warm and welcoming stay at our charming guest
                         house in the heart of Aberdeen. Nestled in the vibrant
-                        neighborhood of Bon Accord, our establishment offers a delightful
+                        neighborhood of Ferryhill, our establishment offers a delightful
                         blend of comfort, convenience, and Scottish hospitality
                     </p>
                     <br />

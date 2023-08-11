@@ -128,21 +128,9 @@ function RoomDetails({ params }) {
 
             <div className='p-10 py-5'>
                 <h1>
-                    Welcome to your blissful retreat in Aberdeen! Step into this
-                    beautifully appointed single room, where tranquility and comfort
-                    embrace you from the moment you arrive. The room&apos;s soft, muted
-                    tones create a calming ambiance, while large windows bathe the space
-                    in natural light, offering scenic views of the city&apos;s charming
-                    surroundings. Sink into the plush, heavenly bed adorned with premium
-                    linens, promising a restful night&apos;s sleep after a long day of
-                    exploration or business engagements. The carefully curated furnishings
-                    exude both elegance and practicality, providing ample storage space to
-                    keep your belongings organized during your stay. To cater to your
-                    relaxation needs, the room is equipped with a cozy seating area,
-                    perfect for unwinding with a good book or enjoying a cup of freshly
-                    brewed coffee from the in-room coffee maker. Stay connected with
-                    high-speed Wi-Fi, and stay entertained with a state-of-the-art
-                    flat-screen TV that offers a wide array of channels.
+                    Welcome to our beautiful guesthouse in Aberdeen! Step into this
+                    beautifully appointed rooms, where cleanliness and comfort
+                    embrace you from the moment you arrive. Enjoy the convenience of complimentary tea and coffee-making amenities. The room features a modern decor, complete with full double glazing and central heating, ensuring your utmost comfort.
                 </h1>
             </div>
 

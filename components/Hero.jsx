@@ -76,7 +76,7 @@ const Hero = () => {
             }}
             className='h-[50vh] lg:h-[75vh] flex justify-center items-center relative'
         >
-            <div className='bg-black/60 h-full w-full flex justify-center items-center flex-col gap-2'>
+            <div className=' bg-black/20 h-full w-full flex justify-center items-center flex-col gap-2'>
                 <h1
                     className={`${luxurious.className} text-[6rem] md:text-[12rem] text-white leading-[2.5rem] md:leading-[5.5rem]`}
                 >
