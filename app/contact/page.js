@@ -1,12 +1,11 @@
 "use client";
 
-import React,{useState} from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { FaPhone, FaAt } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import Link from "next/link";
 import Modal from "@/components/Modal";
-
 
 function Contact() {
   const {
@@ -16,12 +15,12 @@ function Contact() {
   } = useForm();
   const onSubmit = (data) => console.log(data);
 
-const [showMyModal, setshowMyModal] = useState(false);
-const handleOnClose = () => setshowMyModal(false)
+  const [showMyModal, setshowMyModal] = useState(false);
+  const handleOnClose = () => setshowMyModal(false);
 
   return (
     <div>
-		<Modal onClose = {handleOnClose} visible = {showMyModal}/>
+      <Modal onClose={handleOnClose} visible={showMyModal} />
       <section
         style={{
           backgroundImage: "url(/images/contact.jpeg)",
@@ -44,52 +43,43 @@ const handleOnClose = () => setshowMyModal(false)
               <h1 className="font-bold text-2xl">Get in Touch With Us</h1>
             </div>
 
-            
             {/* Contact Form with React-hook-form */}
             <form
-             
-			onSubmit={handleSubmit(onSubmit)}
-              className="flex flex-col"
-              // action="https://formsubmit.co/rexfordbiz@gmail.com"
-              // method="POST"
+              className='flex flex-col'
+              action='https://formsubmit.co/rexfordbiz@gmail.com'
+              method='POST'
             >
               <label>Full Name</label>
               <input
-                placeholder="Enter Full Name"
-                {...register("fullName", { required: true })}
-                className="mb-6 border-[1px] px-4 py-2"
-                type="text"
-                name="name"
-             
+                placeholder='Enter Full Name'
+                className='mb-6 border-[1px] px-4 py-2'
+                type='text'
+                name='name'
               />
               {errors.exampleRequired && <span>This field is required</span>}
 
               <label>Email</label>
               <input
-                placeholder="Enter Your Email"
-                {...register("Email", { required: true })}
-                className="mb-6 border-[1px] px-4 py-2"
-                name="email"
-                type="email"
+                placeholder='Enter Your Email'
+                className='mb-6 border-[1px] px-4 py-2'
+                name='email'
+                type='email'
               />
               {errors.exampleRequired && <span>This field is required</span>}
 
               <label>Message</label>
               <textarea
-                placeholder="Enter A Message"
-                {...register("Message", { required: true })}
-                className="mb-6 border-[1px] px-4 py-2 h-32"
-                name="message"
+                placeholder='Enter A Message'
+                className='mb-6 border-[1px] px-4 py-2 h-32'
+                name='message'
               />
               {errors.exampleRequired && <span>This field is required</span>}
 
-              <button 
-			 
-			  onClick ={()=> setshowMyModal(true)} 
-                type="submit"
-                className="p-5 bg-[#B84770] text-white font-bold"
+              <button
+                onClick={() => setshowMyModal(true)}
+                type='submit'
+                className='p-5 bg-[#B84770] text-white font-bold'
               >
-                {" "}
                 Submit
               </button>
             </form>
@@ -119,9 +109,7 @@ const handleOnClose = () => setshowMyModal(false)
           </div>
         </div>
       </div>
-	  <Modal>
-
-	  </Modal>
+      <Modal></Modal>
     </div>
   );
 }

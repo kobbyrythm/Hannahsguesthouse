@@ -4,7 +4,7 @@
 		"rate": "£70/night",
 		"guests": "2 Guests",
 		"size": "30",
-		"details": "The spacious  room provides a seating area and a wardrobe, as well as a private bathroom featuring a shower.",
+		"details": "The spacious room provides a seating area and a wardrobe, as well as a private bathroom featuring a shower.",
 		"beds": [
 			{
 				"bed": "1 SuperKing bed"
@@ -89,7 +89,7 @@
 	},
 	
 	{
-		"title": "King Garden Room Ensuite",
+		"title": "King Garden Room",
 		"rate": "£65/night",
 		"guests": "2 Guests",
 		"size": "25",
@@ -186,7 +186,7 @@
 		"rate": "£55/night",
 		"guests": "2 Guests",
 		"size": "18",
-		"details": "The double room has karndean floors, a flat-screen TV, an electric kettle, access to a fridge.",
+		"details": "The double room has karndean floors, a flat-screen TV, an electric kettle, access to a fr as well as heating. The unit has 1 bed.",
 		"beds": [
 			{
 				"bed": "1 double bed"
@@ -232,7 +232,7 @@
 		"rate": "£60/night",
 		"guests": "2 Guests",
 		"size": "20",
-		"details": "The double room provides a wardrobe, as well as a private bathroom featuring a shower. The unit offers 1 double bed.",
+		"details": "The double room provides a seating area and a wardrobe, as well as a private bathroom featuring a shower. The unit offers 1 bed.",
 		"beds": [
 			{
 				"bed": "1 double bed"

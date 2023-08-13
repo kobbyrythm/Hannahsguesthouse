@@ -15,12 +15,12 @@
 		"bed": "1 Single Bed"
 	},
 	{
-		"name": " King Room",
-		"image": "/images/room5/kingroom.jpeg",
+		"name": "King Room",
+		"image": "/images/room5/kingroom3.jpeg",
 		"bed": "1 kingsize Bed"
 	},
 	{
-		"name": " King Garden Room",
+		"name": "King Garden Room",
 		"image": "/images/room2/kinggarden2.jpeg",
 		"bed": "1 kingsize Bed"
 	},
@@ -31,7 +31,7 @@
 	},
 	{
 		"name": "Double Room with Shared Bathroom",
-		"image": "/images/dbsharedbath/dbsharedbath.jpg",
+		"image": "/images/view1.jpeg",
 		"bed": "1 Double Bed"
 	}
 ]
