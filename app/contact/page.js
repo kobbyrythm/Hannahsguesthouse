@@ -46,7 +46,7 @@ function Contact() {
             {/* Contact Form with React-hook-form */}
             <form
               className='flex flex-col'
-              action='https://formsubmit.co/rexfordbiz@gmail.com'
+              action='https://formsubmit.co/Hannahsguesthouse@yahoo.com'
               method='POST'
             >
               <label>Full Name</label>
@@ -84,6 +84,8 @@ function Contact() {
               </button>
             </form>
           </div>
+
+
           <div className="md:w-[50%] px-2 md:px-10 lg:px-20">
             <div className="flex justify-center items-center mb-10">
               <h1 className="font-bold text-2xl">Contact Info</h1>
@@ -99,6 +101,7 @@ function Contact() {
                 </span>
                 +44 7753662690
               </div>
+            
               <div className="flex items-center text-sm">
                 <span className="mr-2">
                   <FaAt />
